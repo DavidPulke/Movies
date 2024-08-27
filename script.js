@@ -26,7 +26,7 @@ function showData(movies) {
             <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" alt="${movie.title}">
             <div class="movie-info">
                 <h1>${movie.title}</h1>
-                <p>Rating: ${movie.vote_average}/10</p>
+                <p>Rating: ${movie.vote_average.toFixed(1)}/10</p>
             </div>
         `;
         movieCard.onclick = () => {

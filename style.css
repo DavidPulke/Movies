@@ -127,9 +127,8 @@ strong {
     height: 500px;
 }
 
-#overview {
+.movie-details #title {
     color: #00ffdd;
-
 }
 
 /* Footer Styles */
