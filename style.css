@@ -17,6 +17,13 @@ i {
     color: #00ffdd;
 }
 
+.about-body .about a {
+    color: #f7a206;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
 /* Navbar Styles */
 .navbar {
     display: flex;
@@ -30,6 +37,7 @@ i {
     left: 10%;
     box-shadow: 0 0 10px #00ffdd;
 }
+
 
 .nav-logo {
     font-size: 1.5rem;
