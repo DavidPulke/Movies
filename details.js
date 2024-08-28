@@ -55,3 +55,16 @@ function displayMovieDetails(movie) {
         moviePoster.style.boxShadow = "0 0 20px #4eff37"
     }
 }
+
+
+// navbar
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.querySelector(".navbar").style.top = "0";
+    } else {
+        document.querySelector(".navbar").style.top = "-200px";
+    }
+    prevScrollpos = currentScrollPos;
+}
