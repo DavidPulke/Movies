@@ -151,7 +151,7 @@ strong {
 /* Media Queries */
 @media (max-width: 1368px) {
     .footer {
-        width: 100%;
+        width: 90%;
         position: relative;
     }
 }
@@ -174,7 +174,7 @@ strong {
     }
 
     .footer {
-        width: 100%;
+        width: 89%;
     }
 
     .movies {
@@ -184,6 +184,6 @@ strong {
 
 @media (max-width: 380px) {
     .footer {
-        width: 89%;
+        width: 88%;
     }
 }

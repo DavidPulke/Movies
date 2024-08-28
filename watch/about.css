@@ -9,7 +9,7 @@ body {
 header {
     background-color: #1f1f1f;
     padding: 10px 20px;
-    box-shadow: 0 2px 4px #ff7b00;
+    box-shadow: 0 2px 3px #ff7b00;
 }
 
 .navbar {
@@ -54,71 +54,37 @@ header {
     background-color: #ff9500;
 }
 
-.movie-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+main {
     padding: 20px;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
 }
 
-.movie {
-    background-color: #1f1f1f;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.3s ease;
-    position: relative;
-    margin-bottom: 20px;
-    /* Add space below each movie */
+#about {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.movie img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-}
-
-.movie:hover img {
-    transform: scale(1.05);
-}
-
-.movie h3 {
-    font-size: 18px;
-    margin: 10px 0;
+h1,
+h2 {
     color: #ff7b00;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
-.movie p {
-    margin: 0;
-    padding: 10px;
-    color: #ccc;
-    text-align: center;
+h1 {
+    font-size: 2em;
 }
 
-.watch-button {
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    background-color: #ff7b00;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    margin-top: auto;
-    /* Pushes the button to the bottom */
+h2 {
+    font-size: 1.5em;
 }
 
-.watch-button:hover {
-    background-color: #ff9500;
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
 }
 
 footer {
@@ -130,6 +96,10 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.footer-links {
+    margin-top: 10px;
 }
 
 .footer-links a {
@@ -145,41 +115,22 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-    .movie-container {
-        padding: 15px;
-    }
-
-    .movie {
-        width: 220px;
-    }
-}
-
-@media (max-width: 768px) {
-    .movie-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .movie {
-        width: 90%;
-    }
-
     .search-bar {
         flex-direction: column;
         align-items: stretch;
     }
 
     #search-input {
-        width: 100%;
+        width: 95%;
         margin-bottom: 10px;
     }
 
     #search-button {
-        width: 100%;
+        width: 95%;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .navbar {
         flex-direction: column;
         align-items: stretch;
@@ -190,16 +141,18 @@ footer {
         text-align: center;
         margin-bottom: 10px;
     }
+}
 
-    .search-bar {
-        width: 95%;
+@media (max-width: 480px) {
+    #about {
+        padding: 10px;
     }
 
-    .movie h3 {
-        font-size: 16px;
+    h1 {
+        font-size: 1.5em;
     }
 
-    .movie p {
-        font-size: 14px;
+    h2 {
+        font-size: 1.2em;
     }
 }
