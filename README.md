@@ -1,80 +1,78 @@
 Movie Zone
+Main Website:
+https://davidpulke.github.io/Movies/
 
-לאתר הראשי: https://davidpulke.github.io/Movies/
+Overview
 
+Movie Zone is a website built to provide users with up-to-date and detailed information about popular movies. The site pulls data from the TMDB (The Movie Database) API and displays it in a user-friendly and responsive interface.
 
+Features
 
-סקירה כללית
+Movie Search: Users can search for movies and get detailed information such as the movie's title, release date, synopsis, and ratings.
 
-Movie Zone הוא אתר שנבנה במטרה לספק למשתמשים מידע עדכני ומפורט על סרטים פופולריים. האתר מושך נתונים מ-TMDB (The Movie Database) API ומציג אותם בממשק ידידותי ורספונסיבי.
+Responsive Design: The website is optimized for all screen types, from mobile devices to large monitors.
 
+API Integration: The site uses the TMDB API to fetch movie data and display it dynamically.
 
-תכונות
+About Watch Zone
 
-חיפוש סרטים: משתמשים יכולים לחפש סרטים ולקבל מידע מפורט כמו כותרת הסרט, תאריך יציאה, תקציר, ודירוגים.
+Welcome to Watch Zone, your platform for discovering and watching movies directly from the web. Our platform leverages the YTS API to offer a comprehensive library of movies in various qualities and genres. Search for your favorite movies and enjoy them without leaving the site.
 
-עיצוב רספונסיבי: האתר מותאם לכל סוגי המסכים, החל ממכשירים ניידים ועד למסכים גדולים.
+How It Works
 
-שילוב API: האתר משתמש ב-TMDB API כדי לקבל נתוני סרטים ולהציג אותם בצורה דינמית.
+Our website integrates with the YTS API to provide you with a smooth and convenient experience. You can search for movies using the search bar on the homepage, view the list of results, and click the 'Watch' button to be taken to the movie's page for direct streaming.
 
+Features
 
-אודות Watch Zone
+Search Movies by Name.
 
-ברוכים הבאים ל-Watch Zone, האתר שלכם לגילוי וצפייה בסרטים ישירות מהאינטרנט. הפלטפורמה שלנו מנצלת את הכוח של YTS API כדי לספק לכם ספרייה מקיפה של סרטים במגוון איכות וז'אנרים. חפשו באתר את הסרטים המועדפים עליכם ותיהנו מהם מבלי לצאת מהאתר.
+View a comprehensive list of movies with images and descriptions.
 
+Direct links for watching movies on the YTS website.
 
-כיצד זה עובד
+Technologies Used
 
-האתר שלנו משלב את YTS API כדי להציע לכם חוויה חלקה ונוחה. תוכלו לחפש סרטים באמצעות סרגל החיפוש בעמוד הבית, לצפות ברשימת התוצאות, וללחוץ על כפתור 'צפה' כדי להיות מועברים לעמוד הסרט לצפייה ישירה.
+HTML5 & CSS3: For design and layout.
 
+JavaScript: For dynamic content and data handling.
 
-תכונות
+TMDB API: For integrating movie data.
 
-חיפוש סרטים לפי שם.
-צפייה ברשימה מקיפה של סרטים עם תמונות ותיאורים.
-קישורים ישירים לצפייה בסרטים באתר YTS.
+Installation
 
-
-
-טכנולוגיות בשימוש
-
-HTML5 & CSS3: לעיצוב ותצוגה.
-
-JavaScript: ליצירת תוכן דינמי והעברת נתונים.
-
-TMDB API: לשילוב נתוני סרטים.
-
-התקנה
-
-שיבו את מאגר הפרויקט למחשב המקומי:
+Clone the project repository to your local machine:
 
 bash
+
 Copy code
+
 git clone https://github.com/username/movie-zone.git
 
-פתחו את התיקייה של הפרויקט:
+Open the project folder:
 
 bash
+
 Copy code
+
 cd movie-zone
 
-פתחו את הקובץ index.html בדפדפן.
+Open the index.html file in your browser.
 
-שימוש
+Usage
 
-פתחו את האתר בדפדפן.
+Open the website in your browser.
 
-חפשו סרטים בשדה החיפוש כדי לקבל מידע עדכני עליהם.
+Search for movies using the search field to get up-to-date information.
 
-לחצו על סרט כדי לצפות בפרטים המלאים.
+Click on a movie to view full details.
 
+API Integration
 
-שילוב API
-TMDB API משמש לשאיבת נתונים בזמן אמת על סרטים. האתר שולח בקשות ל-API ומקבל נתונים כמו שם הסרט, תמונות, דירוגים ועוד.
+The TMDB API is used to fetch real-time movie data. The website sends requests to the API and receives data such as the movie title, images, ratings, and more.
 
+Responsive Design
 
-עיצוב רספונסיבי
-האתר נבנה בעזרת CSS Grid ו-Flexbox על מנת להבטיח שהוא ייראה טוב בכל סוגי המסכים, החל ממכשירים ניידים ועד למסכי מחשב גדולים.
+The website is built using CSS Grid and Flexbox to ensure it looks great on all types of screens, from mobile devices to large desktop monitors.
 
 
 
